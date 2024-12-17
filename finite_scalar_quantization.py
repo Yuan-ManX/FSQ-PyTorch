@@ -116,7 +116,7 @@ def round_ste(z: Tensor) -> Tensor:
 
 class FSQ(Module):
     """
-    FSQ (Fixed-size Quantizer) 类，用于固定尺寸的量化器。
+    FSQ (Finite Scalar Quantization) 类
 
     参数:
         levels (List[int]): 每个量化级别的数量。
